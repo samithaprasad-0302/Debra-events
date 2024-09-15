@@ -1,0 +1,79 @@
+﻿/* Add this to your Site.css file or inside the <style> tag in Home.aspx */
+
+body {
+    font-family: Arial, sans-serif;
+   background-color:teal;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 25px 0;
+    text-align: center;
+    
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #444;
+    
+}
+
+    nav ul li {
+        display: inline;
+        margin: 0;
+        
+    }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            padding: 14px 20px;
+            display: inline-block;
+            font-size: 18px; /* Change font size here */
+            transition: background-color 0.3s;
+        }
+
+            nav ul li a:hover {
+                background-color: #555;
+            }
+
+header h1 {
+    margin: 0;
+    font-size: 45px; /* Change font size here */
+}
+
+main {
+    text-align: center;
+}
+main h2{
+    font-size:35px;
+}
+
+.event-banners {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.event-banner {
+    margin: 10px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+
+    .event-banner img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .event-banner:hover {
+        transform: scale(1.05);
+    }
